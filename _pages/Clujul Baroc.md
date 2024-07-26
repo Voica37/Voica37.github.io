@@ -3,7 +3,7 @@ permalink: /clujulbaroc/
 title: "Harta"
 ---
 
-Harta monumentelor din Cluj în stilul
+Harta monumentelor din Cluj în stilul baroc
 
 ## harta a fost creată în contextul [ESU DH 2024](https://esu-ct.conference.ubbcluj.ro/programme/#full-schedule) în Cluj-Napoca, România.
 
