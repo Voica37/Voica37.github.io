@@ -74,12 +74,14 @@
         function setBounds() {
         }
         map.createPane('pane_OSMStandard_0');
-        map.getPane('pane_OSMStandard_0').style.zIndex = 400;
-        var layer_OSMStandard_0 = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+map.getPane('pane_OSMStandard_0').style.zIndex = 400;
+
+var layer_OSMStandard_0 = L.tileLayer('https://stamen.basemaps.cartocdn.com/watercolor/{z}/{x}/{y}.jpg', {
+  pane: 'pane_OSMStandard_0',
   attribution: 'Map tiles by Stamen Design, CC BY 3.0 — Map data © OpenStreetMap contributors',
-  maxZoom: 18,
+  maxZoom: 18
 }).addTo(map);
-        
+
         function pop_ClujulBarocMonumenteedit_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
